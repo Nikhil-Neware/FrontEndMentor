@@ -13,6 +13,9 @@ Welcome to my collection of **Frontend Mentor** challenge solutions! Each soluti
 3. [**Social Media Profile**](https://remarkable-hotteok-254748.netlify.app/)  
    A visually appealing social media profile card with responsive design.
 
+4. [**Recipe Page**](https://phenomenal-stroopwafel-d87efc.netlify.app/)  
+   A visually appealing recipe page with a responsive design.
+
 ---
 
 ## How to Contribute
