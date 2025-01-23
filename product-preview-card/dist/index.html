@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="font.css">
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="bg-custom-cream flex justify-center items-center flex-col">
+  <main class="flex justify-center flex-col md:flex-row md:w-xl w-auto h-auto bg-slate-50 md:mt-[16vh] rounded-lg shadow-lg my-8 mx-5 " >
+    <div class="md:w-1/2">
+      <img class="rounded-l-lg w-auto hidden md:block" src="./images/image-product-desktop.jpg" alt="">
+      <img class="md:hidden rounded-t-lg" src="./images/image-product-mobile.jpg" alt="">
+    </div>
+    <div class="p-5 flex flex-col justify-left md:w-1/2">
+      <p class="mont text-[14px] tracking-[0.2rem] text-gray-500 font-semibold py-1">PERFUME</p>
+      <h1 class="main-text text-4xl font-bold py-2 text-custom-blue "> Gabrielle Essence Eau De Parfum</h1>
+      <p class="mont text-[14px] text-gray-500 py-3">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+        Perfumer-Creator for the House of CHANEL.</p>
+        <div class="py-2 relative">
+          <p class="main-text text-4xl font-extrabold inline-block text-green-700 pr-4 py-2 ">$149.99 </p><span class="mont line-through text-custom-greyblue absolute pt-4">$169.99</span>
+        </div>
+        
+          <button class="mont border-2 py-2 px-4 rounded-lg bg-green-700 flex justify-center text-white items-center font-bold cursor-pointer active:bg-green-900"><img class="pr-2" src="./images/icon-cart.svg" alt="">Add to Cart</button>
+
+        
+    </div>
+  </main>
+
+  
+  
+  <div class="attribution ">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Nikhil Neware</a>.
+  </div>
+</body>
+</html>
